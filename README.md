@@ -4,6 +4,16 @@
 
 Extensão que adapta para o VS Code as configurações do tema Mariana do Sublime Text, com equivalências de interface baseadas no Default Dark e ajustes pessoais de pesquisa e seleção. Projeto independente.
 
+## Créditos e situação da licença
+
+Esta é uma adaptação independente, sem afiliação, patrocínio ou endosso da Sublime HQ ou da Microsoft. Sublime Text e Visual Studio Code são citados apenas para identificar a origem e a compatibilidade do projeto.
+
+O esquema Mariana de origem identifica **Sublime HQ Pty Ltd e Dmitri Voronianski** como autores. A base de interface também utiliza configurações do Default Dark do Sublime Text. A conversão para o VS Code e os ajustes pessoais não transferem a autoria dos componentes originais.
+
+**A autorização de redistribuição dos arquivos de origem ainda não foi confirmada.** Este pacote não deve ser apresentado como autorizado para publicação pública ou como inteiramente licenciado sob MIT, Apache ou outra licença aberta. O campo `UNLICENSED` foi mantido enquanto essa verificação está pendente; ele não significa domínio público e não concede direitos sobre os componentes de terceiros.
+
+Veja [os créditos e a origem](CREDITOS.md) e [as pendências de licenciamento](LICENCIAMENTO.md). Nenhuma licença dos arquivos originais foi incluída por suposição.
+
 ## Instalação
 
 1. Extraia o ZIP e localize `tema-mariana-for-vs-code-2.0.1.vsix`.

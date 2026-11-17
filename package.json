@@ -1,7 +1,7 @@
 {
   "name": "mariana-default-dark-fiel",
   "displayName": "Tema Mariana for VS Code",
-  "description": "Extensão que adapta para o VS Code as configurações do tema Mariana do Sublime Text, com ajustes de interface, pesquisa e seleções múltiplas.",
+  "description": "Adaptação independente do Mariana do Sublime Text para VS Code, com ajustes de pesquisa e seleções múltiplas. Sem vínculo ou endosso oficial.",
   "version": "2.0.1",
   "publisher": "mariana-tema-local",
   "license": "UNLICENSED",
