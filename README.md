@@ -1,49 +1,50 @@
-# Tema Mariana for VS Code
+# Tema de Helvecio
 
 ![Ícone](images/icon.png)
 
-Extensão que adapta para o VS Code as configurações do tema Mariana do Sublime Text, com equivalências de interface baseadas no Default Dark e ajustes pessoais de pesquisa e seleção. Projeto independente.
+Tema escuro personalizado, composto a partir das preferências visuais de Helvecio e desenvolvido com auxílio de IA (ChatGPT/Codex). Projeto independente, sem vínculo ou endosso oficial dos autores dos componentes de referência.
 
-## Créditos e situação da licença
+## Desenvolvimento
 
-Esta é uma adaptação independente, sem afiliação, patrocínio ou endosso da Sublime HQ ou da Microsoft. Sublime Text e Visual Studio Code são citados apenas para identificar a origem e a compatibilidade do projeto.
+- Período registrado na conversa: **16 a 18 de novembro de 2026**, aproximadamente dois dias de calendário.
+- Tempo de trabalho efetivo: **não cronometrado**; o período de calendário não representa horas de trabalho contínuo.
+- Histórico organizado em **12 variantes de comparação**, seguido desta composição final: **13 versões numeradas na coleção**. Algumas variantes foram reconstruídas a partir das alterações registradas, e uma era um rascunho arquivado.
+- Esta é a primeira edição do novo identificador, versão técnica **1.0.1**, com identificação **helvecio.tema-de-helvecio**. O número 13 identifica sua posição na coleção de testes.
 
-O esquema Mariana de origem identifica **Sublime HQ Pty Ltd e Dmitri Voronianski** como autores. A base de interface também utiliza configurações do Default Dark do Sublime Text. A conversão para o VS Code e os ajustes pessoais não transferem a autoria dos componentes originais.
+## Composição visual
 
-**A autorização de redistribuição dos arquivos de origem ainda não foi confirmada.** Este pacote não deve ser apresentado como autorizado para publicação pública ou como inteiramente licenciado sob MIT, Apache ou outra licença aberta. O campo `UNLICENSED` foi mantido enquanto essa verificação está pendente; ele não significa domínio público e não concede direitos sobre os componentes de terceiros.
+| Elemento | Escolha |
+|---|---|
+| Interface e restante da sintaxe | Base da variante 7 |
+| Definições de funções | Variante 7: verde-água `#5FB4B4` |
+| Chamadas de funções | Variante 8: azul `#6699CC`; funções de biblioteca mantêm itálico |
+| Texto efetivamente selecionado | Azul-claro `#d0f4ff30`, aproximadamente 19% de opacidade |
+| Ocorrências iguais não selecionadas | Azul-claro `#d0f4ff14`, aproximadamente 8% de opacidade |
+| Pesquisa: resultado atual, outros resultados e intervalo | Valores da referência Cool: `#d0f4ff14` |
+| Destaques adicionais de leitura/escrita | Transparentes, conforme a referência Cool; também desativado o fundo de ocorrência textual para evitar a camada verde anterior |
 
-Veja [os créditos e a origem](CREDITOS.md) e [as pendências de licenciamento](LICENCIAMENTO.md). Nenhuma licença dos arquivos originais foi incluída por suposição.
+O resultado de pesquisa pode receber também a camada da seleção do editor. A distinção entre selecionado e não selecionado é feita pela opacidade da seleção, mantendo o texto com suas cores de sintaxe. A base diferencia nomes por scopes; a gramática da linguagem determina quais palavras recebem cada scope.
+
+Os cursores e a linha atual mantêm as configurações da variante 7.
+
+## Atalhos pessoais encontrados
+
+- **Ctrl+Alt+A:** ocorrência anterior (`editor.action.previousSelectionMatchFindAction`).
+- **Ctrl+Alt+Z:** próxima ocorrência (`editor.action.nextSelectionMatchFindAction`).
+- **Ctrl+Alt+U / Ctrl+Alt+J:** acrescentar a ocorrência anterior / seguinte à seleção.
+- **Ctrl+Shift+D:** selecionar todas as ocorrências.
+
+Os atalhos pertencem às configurações pessoais do editor; a extensão não os redefine. As cores se aplicam aos comandos e também às demais formas de usar pesquisa e seleção.
 
 ## Instalação
 
-1. Extraia o ZIP e localize `tema-mariana-for-vs-code-2.0.1.vsix`.
-2. No VS Code, abra Extensões, clique em `…` e escolha **Instalar do VSIX…**.
-3. Se for solicitado, reinicie o VS Code. Use Ctrl+K, Ctrl+T e selecione **Tema Mariana for VS Code**.
+No VS Code, abra Extensões → … → Instalar do VSIX… e escolha `tema-de-helvecio-1.0.1.vsix`. Depois selecione **Tema de Helvecio** em Ctrl+K, Ctrl+T. Se solicitado, recarregue a janela.
 
-A versão 2.0.1 mantém os identificadores internos da extensão anterior para permitir sua atualização. Esta pasta é uma entrega para instalação; não foi instalada automaticamente.
+## Créditos e licença
 
-## Ícones
+Os créditos dos componentes aproveitados estão em `CREDITOS.md`. A licença de redistribuição das bases de terceiros continua pendente de confirmação; consulte `LICENCIAMENTO.md`. O novo nome não altera a autoria dos componentes de origem.
 
-O ícone ativo é `images/icon.png`, em 128 × 128 pixels. As cinco alternativas estão em `images/opcoes/`. Para trocar, copie a opção desejada sobre `images/icon.png` e gere novamente o instalador. Trocar apenas o arquivo fora do VSIX não altera um instalador já gerado.
 
-## Cores personalizadas
+## Ícone da edição 1.0.1
 
-As propriedades abaixo ficam em `colors`, no arquivo `themes/Mariana-Default-Dark.color-theme.json`.
-
-| Propriedade | Cor | Uso |
-|---|---|---|
-| `editor.findMatchBackground` | `#a8d5a340` | Resultado atual da pesquisa (25%) |
-| `editor.findMatchHighlightBackground` | `#99c79466` | Outros resultados da pesquisa (40%) |
-| `editor.findRangeHighlightBackground` | `#99c79426` | Área de pesquisa delimitada (15%) |
-| `editor.selectionBackground` | `#a8d5a307` | Texto selecionado (aprox. 3%, valor da última versão aprovada) |
-| `editor.selectionHighlightBackground` | `#99c79466` | Ocorrências iguais não selecionadas (40%) |
-| `editorMultiCursor.primary.foreground` | `#b0ff66bf` | Cursor principal em multisseleção (75%) |
-| `editorMultiCursor.secondary.foreground` | `#b0ff66bf` | Cursores secundários (75%) |
-
-O cursor único continua laranja (`editorCursor.foreground`). O destaque da linha permanece inalterado (`editor.lineHighlightBackground`). As cores são compartilhadas entre comandos: pesquisa também afeta Ctrl+F; seleção também afeta seleções comuns. Não há fundo separado para seleção principal e secundárias.
-
-## Preservação da base
-
-Todos os scopes, regras `tokenColors`, cores semânticas e demais propriedades foram preservados exatamente como dados na pasta fornecida. Apenas sete propriedades de interface foram ajustadas; duas delas foram acrescentadas para cursores múltiplos. Não houve tentativa de corrigir scopes por suposição.
-
-O arquivo `REFERENCIA-ORIGINAL.md` conserva a documentação de transposição anterior como referência histórica; suas tabelas descrevem a base, não os ajustes atuais.
+Girassol em aparência de 8 bits, com pétalas amarelas e miolo castanho sobre fundo branco; sem caule nem folhas. Ícone de 128 × 128 pixels gerado com auxílio de IA. Esta edição altera a imagem da extensão; as cores e regras do editor são preservadas.

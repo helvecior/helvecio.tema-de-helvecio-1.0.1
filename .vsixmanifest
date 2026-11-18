@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PackageManifest xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" Version="2.0.0">
+		<Metadata>
+			<Identity Language="en-US" Id="tema-de-helvecio" Version="1.0.1" Publisher="helvecio" />
+			<DisplayName>Tema de Helvecio</DisplayName>
+			<Description xml:space="preserve">Tema escuro personalizado de Helvecio, desenvolvido com auxílio de IA. Resultado de 12 variantes de comparação e uma composição final.</Description>
+			<Tags>theme,color-theme,__web_extension</Tags>
+			<Categories>Themes</Categories>
+			<GalleryFlags>Public</GalleryFlags>
+			
+			<Properties>
+				<Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.80.0" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="ui,workspace,web" />
+				<Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.EnabledApiProposals" Value="" />
+				
+				
+				
+				
+				
+				
+				
+				
+				<Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+				<Property Id="Microsoft.VisualStudio.Services.Content.Pricing" Value="Free" />
+
+				
+				
+			</Properties>
+			
+			
+		<Icon>extension/images/icon.png</Icon></Metadata>
+		<Installation>
+			<InstallationTarget Id="Microsoft.VisualStudio.Code" />
+		</Installation>
+		<Dependencies />
+		<Assets>
+			<Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+			<Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/readme.md" Addressable="true" />
+		<Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/images/icon.png" Addressable="true" /></Assets>
+	</PackageManifest>

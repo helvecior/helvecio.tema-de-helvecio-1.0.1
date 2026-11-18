@@ -1,0 +1,23 @@
+{
+  "numero_na_colecao": 13,
+  "identificador": "helvecio.tema-de-helvecio",
+  "propriedades_de_destaque": {
+    "editor.findMatchBackground": "#d0f4ff14",
+    "editor.findMatchHighlightBackground": "#d0f4ff14",
+    "editor.findRangeHighlightBackground": "#d0f4ff14",
+    "editor.inactiveSelectionBackground": "#d0f4ff30",
+    "editor.selectionBackground": "#d0f4ff30",
+    "editor.selectionHighlightBackground": "#d0f4ff14",
+    "editor.wordHighlightBackground": "#00000000",
+    "editor.wordHighlightStrongBackground": "#00000000",
+    "editorOverviewRuler.findMatchForeground": "#d0f4ff30",
+    "editorOverviewRuler.selectionHighlightForeground": "#d0f4ff30",
+    "editorOverviewRuler.wordHighlightForeground": "#d0f4ff30",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#d0f4ff30",
+    "editor.wordHighlightTextBackground": "#00000000"
+  },
+  "periodo": "16 a 18 de novembro de 2026",
+  "horas_de_trabalho": "não cronometradas",
+  "variantes_anteriores": 12,
+  "versoes_na_colecao": 13
+}

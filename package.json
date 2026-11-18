@@ -1,24 +1,29 @@
 {
-  "name": "mariana-default-dark-fiel",
-  "displayName": "Tema Mariana for VS Code",
-  "description": "Adaptação independente do Mariana do Sublime Text para VS Code, com ajustes de pesquisa e seleções múltiplas. Sem vínculo ou endosso oficial.",
-  "version": "2.0.1",
-  "publisher": "mariana-tema-local",
-  "license": "UNLICENSED",
-  "engines": {
-    "vscode": "^1.80.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Tema Mariana for VS Code",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Mariana-Default-Dark.color-theme.json"
-      }
-    ]
-  },
-  "icon": "images/icon.png"
+	"name": "tema-de-helvecio",
+	"displayName": "Tema de Helvecio",
+	"publisher": "helvecio",
+	"version": "1.0.1",
+	"description": "Tema escuro personalizado de Helvecio, desenvolvido com auxílio de IA. Resultado de 12 variantes de comparação e uma composição final.",
+	"license": "UNLICENSED",
+	"engines": {
+		"vscode": "^1.80.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "images/icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Tema de Helvecio",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Helvecio-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1794972227283,
+		"targetPlatform": "undefined",
+		"size": 52693
+	}
 }
